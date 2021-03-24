@@ -6,8 +6,9 @@ const range = {
     average: 45.325
 };
 
-function middle(max, min) {
-    const middle = (range) => (range.max + range.min) / 2.0;
+function middle(rangeTwo) {
+    const { max: max, min: min } = rangeTwo;
+    return (max + min) / 2;
 }
 
 console.log(middle(range));
