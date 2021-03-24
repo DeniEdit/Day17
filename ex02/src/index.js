@@ -3,10 +3,8 @@ const  MY_CAR = {
     cylinders: 4,
     size: 2.2
 };
-
 function main(myCar) {
-    const cylinders = myCar.cylinders;
-    const size = myCar.size;
+    const { cylinders, size } = myCar;
     return {cylinders, size};
 }
 console.log(main(MY_CAR));
