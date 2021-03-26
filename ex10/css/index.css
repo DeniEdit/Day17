@@ -76,11 +76,11 @@ h1,h2,h3,h4,h5,h6 {
   width: 100%;
 }
 
-#signin .secondary-btn,.links,.or {
+#signin .secondary-btn,#links,.or {
   width: 60%;
 }
 
-#signin .links a {
+#signin #links a {
   display: block;
   color: #0083bc;
   text-decoration: none;
@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #main-footer {
-  color: #ccc;
+  color: #fff;
   text-align: center;
   font-size: 0.8rem;
   max-width: 80%;
@@ -125,7 +125,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #main-footer a {
-  color: #ccc;
+  color: #fff;
   text-decoration: underline;
 }
 
