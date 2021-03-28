@@ -4,7 +4,7 @@ const BAKING_TEMPERATURES = {
     pie: { low: 200, high: 230 },
 };
 function main(baking) {
-    const { cake: { low: lowBread, high: highBread }} = baking;
+    const { bread: { low: lowBread, high: highBread }} = baking;
     return {lowBread, highBread};
 }
 console.log(main(BAKING_TEMPERATURES ));
